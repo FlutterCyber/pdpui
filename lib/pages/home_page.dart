@@ -12,6 +12,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: Text("UI"),
       ),
       body: Center(
@@ -19,11 +20,12 @@ class _HomePageState extends State<HomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-
               "User",
               style: TextStyle(fontSize: 40, color: Colors.red),
             ),
-            SizedBox(width: 20,),
+            SizedBox(
+              width: 20,
+            ),
             Text(
               "Interface",
               style: TextStyle(fontSize: 40, color: Colors.green),
