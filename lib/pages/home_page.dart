@@ -15,7 +15,21 @@ class _HomePageState extends State<HomePage> {
         title: Text("UI"),
       ),
       body: Center(
-        child: Text("Home Page"),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+
+              "User",
+              style: TextStyle(fontSize: 40, color: Colors.red),
+            ),
+            SizedBox(width: 20,),
+            Text(
+              "Interface",
+              style: TextStyle(fontSize: 40, color: Colors.green),
+            ),
+          ],
+        ),
       ),
     );
   }
